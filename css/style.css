@@ -33,10 +33,6 @@ body {
 	line-height: 1;
 }
 
-ol, ul {
-	list-style: none;
-}
-
 blockquote, q {
 	quotes: none;
 }
@@ -57,11 +53,118 @@ body {
   font-size: 14px;
   line-height: 1.5;
   font-family: Helvetica Neue,Arial,sans-serif;
-  /* min-height: 100vh; */
   color: #555;
   margin: 0;
   padding: 0;
 }
+
+main {
+  margin-bottom: 0px;
+}
+
+.lists a,
+  .inside,
+  .inside-3rd-section {
+    color: #fff;
+  }
+
+  footer {
+    text-align: center;
+    background-color: #131313;
+  }
+
+  .reach-out {
+    display: flex;
+    justify-content: center; 
+  }
+
+  .footer-icons ul .reach-out li {
+    margin-top: 20px;
+    margin-right: 7px;
+  }
+
+  .footer-icons ul li a {
+    text-decoration: none;
+  }
+
+  .footer-icons ul .link-icons a {
+    margin-right: 17px;
+  }
+
+  .link-icons {
+    margin-top: 20px;
+  }
+
+.inside {
+  position: relative;
+  top: -150px;
+  left: 10px;
+}
+
+.inside-heading {
+  font-size: 1.5em;
+  line-height: 1;
+  font-weight: 800;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.section-h2 {
+  color: #f42;
+  font-weight: 700;
+  line-height: 1.1;
+  font-size: 28px;
+  margin-bottom: 18px;
+  margin-top: 24px;
+}
+
+.inside-3rd-section {
+  position: relative;
+  left: 11px;
+  top: -170px;
+  width: 70%;
+  font-size: 16px;
+  font-weight: 800;
+}
+
+.inside-3rd-section h2 {
+  margin-top: 6px;
+  margin-bottom: 4px;
+}
+
+.latest-down {
+  color: rgb(248, 58, 25);
+}
+
+.latest-down h4 {
+  text-transform: uppercase;
+}
+
+.latest-down p,
+.col-2 h3 {
+  width: 80%;
+  line-height: 1;
+  font-weight: 700;
+  margin-top: 8px;
+}
+
+.latest-list {
+  margin-top: 20px;
+  width: 99%;
+}
+
+.latest-list li {
+  margin-top: 6px;
+  margin-left: 11px;
+}
+
+.latest-list li a {
+ text-decoration: none;
+ color: #555;
+ font-size: 12px;
+ 
+}
+
  @media (min-width: 320px){
   .nav {
     background-color: #fff;
@@ -98,10 +201,6 @@ body {
   .lists ul {
     visibility: hidden;
   }
-  .lists a,
-  .inside {
-    color: #fff;
-  }
   
   /* main */
   
@@ -117,20 +216,6 @@ body {
 
   .first-img {
     margin-bottom: -125px;
-  }
-
-  .inside {
-    position: relative;
-    top: -150px;
-    left: 10px;
-  }
-
-  .inside-heading {
-    font-size: 1.5em;
-    line-height: 1;
-    font-weight: 800;
-    margin-top: 10px;
-    margin-bottom: 10px;
   }
 
   .small-text,
@@ -149,6 +234,46 @@ body {
   .black-small-text {
     color: rgb(12, 11, 11);
   }
+
+  .red-image {
+    margin-top: -100px;
+  }
+
+  .latest-news {
+    display: flex;
+    margin-bottom: 15px;
+    align-items: center;
+  }
+
+  .latest-news img {
+    width: 80px;
+    height: 75px;
+    margin-right: 12px;
+    margin-left: 11px;
+  }
+
+  .latest-news h4 {
+    font-size: 14px;
+    font-weight: 800;
+    line-height: 18px;
+    margin-right: 12px;
+    margin-bottom: 5px;
+  }
+
+  .hard-fork h2 {
+    margin-left: 5px;
+  }
+
+  .latest {
+    margin-top: -110px;
+  }
+
+  .latest-container {
+    display: flex;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
  }
 
 
