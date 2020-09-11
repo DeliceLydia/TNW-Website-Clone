@@ -73,6 +73,8 @@ body {
   }
   
   .nav-logo {
+    display: flex;
+    justify-content: space-between;
     background-color: #f42;
     background: linear-gradient(to bottom right,#c09,#f42 85%);
     width: 106px;
@@ -84,13 +86,13 @@ body {
     height: 16px;
     width: 66px;
     padding: 16px 25px;
+    margin-right: 200px;
   }
   
   .bar {
     color: #f42;
-    position: absolute;
-    left: 330px;
-    top: 10px;
+    margin-top: 10px;
+    margin-right: 100px;
   }
   
   .lists ul {
