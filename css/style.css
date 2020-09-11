@@ -103,12 +103,12 @@ body {
   
   /* main */
   
-  .first-section {
+  .main-container {
     display: flex;
     flex-direction: column;
   }
   
-  .first-section img {
+  .main-img {
     width: 100%;
     height: 250px;
   }
