@@ -96,17 +96,28 @@ main {
     padding-bottom: 20px;
     font-size: 11px;
   }
+
+  .link-icons {
+    padding-top: 30px;
+    font-size: 16px;
+    margin-left: 20px;
+  }
+
+  .icon-cicle {
+   background-color: rgb(82, 77, 77);
+   padding: 8px;
+   border-radius: 60%;
+  }
   
-  .link-icons a,
+  .link-icons a {
+    color: #fff;
+    margin-left: -10px;
+  }
+
   .reach-out a,
   .footer-bottom {
     color: #aaa;
     margin-left: 7px;
-  }
-
-  .link-icons {
-    padding-top: 30px;
-    font-size: 18px;
   }
 
   .footer-bottom {
@@ -303,4 +314,82 @@ main {
   }
  }
 
+ @media (min-width: 768px) {
+   .nav-logo .fas {
+     visibility: hidden;
+   }
 
+   .lists ul {
+     visibility: visible;
+   }
+
+   .nav {
+     height: 80px;
+   }
+
+   .nav-logo {
+     height: 80px;
+   }
+
+   .nav-logo a {
+     margin-top: 19px;
+   }
+
+   .lists {
+     width: 84%;
+     margin-left: 107px;
+   }
+
+   .lists ul {
+    list-style: none;
+   }
+
+   .lists ul li a {
+     text-decoration: none;
+     color: rgb(187, 179, 179);
+    
+   }
+
+   .list-container {
+     background-color: #000;
+   }
+
+   .list-container ul {
+     display: flex;
+     flex-direction: row;
+     margin-top: -79px;
+     padding-top: 8px;
+     padding-bottom: 8px; 
+     margin-left: 25px;
+   }
+
+   .list-container ul li {
+     margin-left: 7px;
+   }
+
+   .nav-list3 {
+     margin-top: 10px;
+     text-align: center;
+     margin-left: 100px;
+   }
+
+   .nav-section {
+     display: block;
+     position: absolute;
+     left: 130px;
+   }
+
+   .nav-section li {
+     float: left;
+     position: relative;
+   }
+
+   .nav-section li a {
+     padding-left: 10px;
+   }
+
+
+   #search {
+     visibility: hidden;
+   }
+     
