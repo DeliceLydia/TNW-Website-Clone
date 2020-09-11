@@ -70,17 +70,16 @@ main {
 
   footer {
     text-align: center;
-    background-color: #131313;
+    background-color: #131313; 
+    padding-bottom: 20px;
   }
 
-  .reach-out {
-    display: flex;
-    justify-content: center; 
+  .footer-icons {
+    background-color: #000;
   }
 
-  .footer-icons ul .reach-out li {
-    margin-top: 20px;
-    margin-right: 7px;
+  .footer-icons ul {
+    list-style: none;
   }
 
   .footer-icons ul li a {
@@ -91,8 +90,28 @@ main {
     margin-right: 17px;
   }
 
+  .reach-out {
+    margin-top: 25px;
+    margin-bottom: 25px;
+    padding-bottom: 20px;
+    font-size: 11px;
+  }
+  
+  .link-icons a,
+  .reach-out a,
+  .footer-bottom {
+    color: #aaa;
+    margin-left: 7px;
+  }
+
   .link-icons {
-    margin-top: 20px;
+    padding-top: 30px;
+    font-size: 18px;
+  }
+
+  .footer-bottom {
+   width: 60%;
+   margin-left: 70px;
   }
 
 .inside {
@@ -150,19 +169,27 @@ main {
 
 .latest-list {
   margin-top: 20px;
-  width: 99%;
+  width: 95%;
+  list-style: none;
+}
+
+.latest-list li::before {
+  content: "\2022";
+  color: rgb(233, 42, 42);
+  font-weight: bold;
+  display: inline-block; 
+  width: 1em;
 }
 
 .latest-list li {
   margin-top: 6px;
-  margin-left: 11px;
+  margin-left: 15px;
 }
 
 .latest-list li a {
  text-decoration: none;
  color: #555;
- font-size: 12px;
- 
+ font-size: 14px;
 }
 
  @media (min-width: 320px){
@@ -237,6 +264,7 @@ main {
 
   .red-image {
     margin-top: -100px;
+    margin-bottom: -10px;
   }
 
   .latest-news {
@@ -273,7 +301,6 @@ main {
     margin-left: 10px;
     margin-right: 10px;
   }
-
  }
 
 
