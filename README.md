@@ -9,7 +9,6 @@ This project consists of replicating the The Next Web website putting emphasis o
 - Use a mobile first approach when dealing with mediaqueries with 2 breakpoints (you should figure out the exact width for each breakpoint by yourself).
 - Remember to double-check if you page layout does not brake on smaller screens.
 
-​
 ## Built With
 
 - HTML
