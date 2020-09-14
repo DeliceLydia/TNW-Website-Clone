@@ -532,6 +532,9 @@ footer {
 
   .latest-news {
     flex-direction: column;
+    width: 250px;
+    margin-left: 3px;
+    margin-right: 3px;
   }
 
   .col-1 img {
@@ -642,106 +645,5 @@ footer {
 
   .inside-heading {
     font-size: 2em;
-  }
-}
-
-@media all and (max-width: 2560px) {
-  .first-section {
-    margin-bottom: -80px;
-    margin-top: -30px;
-  }
-
-  .first-img {
-    margin-left: 10px;
-    margin-right: -25px;
-  }
-
-  .second-img {
-    margin-right: -5px;
-  }
-
-  .img-left {
-    width: 97%;
-    height: 70vh;
-  }
-
-  .img-right {
-    width: 97%;
-    height: 35vh;
-  }
-
-  .inside {
-    margin-top: -120px;
-  }
-
-  .inside-heading {
-    font-size: 4em;
-  }
-
-  .inside h5 {
-    font-size: 1.5em;
-  }
-
-  .news-container {
-    margin-left: 70px;
-  }
-
-  .news-container article {
-    width: 400px;
-    margin-right: 3px;
-    margin-left: 3px;
-  }
-
-  .hard-fork .latest-heading {
-    margin-left: 85px;
-    font-size: 3em;
-  }
-
-  .col-1 img {
-    width: 98%;
-    height: 200px;
-  }
-
-  .col-2 {
-    text-align: left;
-    width: 90%;
-    margin: 10px;
-  }
-
-  .col-2 h4 {
-    font-size: 1.2em;
-  }
-
-  .flex-container {
-    margin-left: 80px;
-  }
-
-  .third-section {
-    width: 500px;
-    margin-right: -45px;
-  }
-
-  .third-section img {
-    height: 40vh;
-  }
-
-  .latest {
-    margin-top: -90px;
-  }
-
-  .latest-img img {
-    height: 200px;
-  }
-
-  .orange-par {
-    font-size: 1.4em;
-  }
-
-  .latest-list li a {
-    font-size: 1.5em;
-  }
-
-  .last-deals {
-    margin-left: -10px;
   }
 }
