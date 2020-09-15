@@ -182,14 +182,23 @@ footer {
   margin-left: 7px;
 }
 
-.latest-list li a {
+.orange-text h2,
+.right-list a {
+  color: rgb(255, 68, 34);
+}
+
+.center-items a {
+  font-size: 13px;
+  color: #aaa;
+}
+
+.center-items a,
+.right-list a,
+.latest-list li a,
+.footer-icons ul li a {
   text-decoration: none;
   color: #555;
   font-size: 14px;
-}
-
-.footer-icons ul li a {
-  text-decoration: none;
 }
 
 .footer-icons ul .link-icons a {
@@ -418,6 +427,65 @@ footer {
   margin-bottom: 5px;
 }
 
+/* latest fund */
+
+.orange-text {
+  margin-left: 15px;
+}
+
+.orange-text h2 {
+  float: left;
+  line-height: 32px;
+  font-weight: 700;
+  font-size: 28px;
+  margin-bottom: 11px;
+}
+
+.right-list p {
+  margin-bottom: 10px;
+}
+
+.first-funds,
+.value {
+  width: 90%;
+}
+
+.first-funds h4 {
+  background-color: #f42;
+  padding: 10px;
+  text-align: center;
+  color: rgb(240, 234, 234);
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.amount {
+  font-size: 18px;
+  color: #000;
+}
+
+.value {
+  background-color: rgb(238, 196, 203);
+}
+
+.value p {
+  text-align: center;
+}
+
+.center-items {
+  margin-left: 20px;
+  margin-top: 16px;
+  margin-bottom: 20px;
+}
+
+.center-items i {
+  color: #131313;
+}
+
+hr {
+  margin-right: 35px;
+}
+
 .flex-container .section-h2 {
   margin-left: 40px;
   font-size: 2.5em;
@@ -465,6 +533,10 @@ footer {
 
   .cover-logo {
     visibility: hidden;
+  }
+
+  .orange-text-heading a {
+    font-size: 25px;
   }
 
   .nav-section li a {
@@ -554,6 +626,33 @@ footer {
   .col-2 {
     text-align: left;
     width: 90%;
+  }
+
+  .fund {
+    display: flex;
+    margin-left: 11px;
+  }
+
+  .funds-container {
+    width: 34vw;
+  }
+
+  .orange-text-heading {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    margin-left: 30px;
+    margin-top: 80px;
+  }
+
+  .orange-text-heading h2 {
+    margin-bottom: 20px;
+    font-size: 40px;
+    font-weight: 700;
+  }
+
+  .funds-container p {
+    font-size: 20px;
   }
 
   .flex {
@@ -672,6 +771,30 @@ footer {
   .news-container {
     margin-top: 7px;
     margin-left: 50px;
+  }
+
+  .orange-text-heading {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+
+  .orange-text-heading h2 {
+    margin-left: -180px;
+  }
+
+  .orange-text-heading .right-list {
+    display: flex;
+    margin-right: -120px;
+  }
+
+  .orange-text-heading .right-list a {
+    margin-left: 15px;
+    border-right: 2px solid pink;
+  }
+
+  hr {
+    margin-right: 120px;
   }
 
   .third-section {
