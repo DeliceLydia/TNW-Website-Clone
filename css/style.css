@@ -821,8 +821,14 @@ hr {
     margin-right: 120px;
   }
 
+  .flex {
+    display: grid;
+    grid-template-columns: repeat(3, 9fr);
+  }
+
   .third-section {
     width: 30vw;
+    margin: 15px;
   }
 
   .flex-container .section-h2 {
