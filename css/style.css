@@ -727,7 +727,7 @@ hr {
 
   .nav-section .fa-search {
     position: absolute;
-    right: -600px;
+    right: -400px;
     top: -5px;
     font-size: 23px;
     border-left: 1px solid rgb(224, 221, 221);
