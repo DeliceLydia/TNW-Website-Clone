@@ -1,11 +1,3 @@
-/* reset  */
-
-/* base */
-
-/* layout */
-
-/* template */
-
 /*
 * reset
 *
@@ -250,7 +242,7 @@ footer {
 
 .first-section {
   margin-top: 0;
-  margin-bottom: -130px;
+  margin-bottom: -80px;
 }
 
 .section-h2,
@@ -378,7 +370,7 @@ footer {
 
 .first-img {
   margin-top: 48px;
-  margin-bottom: -125px;
+  margin-bottom: -100px;
 }
 
 .first-img .inside {
@@ -387,7 +379,7 @@ footer {
 }
 
 .second-img {
-  margin-bottom: -120px;
+  margin-bottom: -100px;
 }
 
 .small-text {
@@ -563,6 +555,14 @@ hr {
     position: relative;
   }
 
+  .nav-section .fa-search {
+    margin-left: 20px;
+    margin-top: 2px;
+    padding-left: 4px;
+    font-size: 20px;
+    border-left: 1px solid rgb(224, 221, 221);
+  }
+
   .list-container ul li {
     margin-left: 7px;
   }
@@ -572,13 +572,13 @@ hr {
     margin-left: 36px;
   }
 
-  #search {
-    visibility: hidden;
-  }
-
   .flex-pictures {
     display: flex;
     margin-bottom: 5px;
+  }
+
+  .first-section {
+    margin-top: 30px;
   }
 
   .first-img {
@@ -596,7 +596,7 @@ hr {
 
   .img-left {
     width: 100%;
-    height: 40vh;
+    height: 41vh;
   }
 
   .img-right {
@@ -630,11 +630,15 @@ hr {
 
   .fund {
     display: flex;
-    margin-left: 11px;
+    margin-left: 20px;
   }
 
   .funds-container {
-    width: 34vw;
+    width: 50vw;
+  }
+
+  .hidden-fund {
+    display: none;
   }
 
   .orange-text-heading {
@@ -652,7 +656,7 @@ hr {
   }
 
   .funds-container p {
-    font-size: 20px;
+    font-size: 18px;
   }
 
   .flex {
@@ -684,7 +688,7 @@ hr {
   }
 }
 
-@media all and (min-width: 1024px) {
+@media all and (min-width: 1025px) {
   .nav {
     padding-left: 0;
   }
@@ -719,6 +723,14 @@ hr {
     margin-left: -5px;
   }
 
+  .nav-section .fa-search {
+    margin-left: 600px;
+    margin-top: 4px;
+    padding-left: 4px;
+    font-size: 23px;
+    border-left: 1px solid rgb(224, 221, 221);
+  }
+
   .cover-logo {
     background: url(https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/tnw.svg) no-repeat;
     background-size: contain;
@@ -733,6 +745,7 @@ hr {
     height: 100%;
     max-height: 112px;
     z-index: 5;
+    visibility: visible;
   }
 
   .first-section {
@@ -774,7 +787,11 @@ hr {
   }
 
   .fund {
-    margin-left: 200px;
+    margin-left: 40px;
+  }
+
+  .hidden-fund {
+    display: block;
   }
 
   .funds-container {
@@ -809,11 +826,12 @@ hr {
 
   .flex {
     margin-left: 200px;
+    margin-right: 100px;
   }
 
   .third-section {
-    width: 380px;
-    margin-left: 10px;
+    width: 400px;
+    margin-left: 30px;
   }
 
   .flex-container .section-h2 {
