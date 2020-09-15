@@ -185,6 +185,7 @@ footer {
 .orange-text h2,
 .right-list a {
   color: rgb(255, 68, 34);
+  text-decoration: none;
 }
 
 .center-items a {
@@ -193,7 +194,6 @@ footer {
 }
 
 .center-items a,
-.right-list a,
 .latest-list li a,
 .footer-icons ul li a {
   text-decoration: none;
@@ -746,7 +746,7 @@ hr {
 
   .img-left {
     width: 98.8%;
-    height: 78vh;
+    height: 81.6vh;
     margin-left: 10px;
   }
 
@@ -780,7 +780,7 @@ hr {
   }
 
   .orange-text-heading h2 {
-    margin-left: -180px;
+    margin-left: -140px;
   }
 
   .orange-text-heading .right-list {
