@@ -609,7 +609,7 @@ hr {
     display: flex;
     flex-wrap: wrap;
     margin-top: 30px;
-    margin-left: 40px;
+    margin-left: 20px;
     margin-right: 20px;
   }
 
@@ -780,7 +780,7 @@ hr {
   }
 
   .img-right {
-    height: 36vh;
+    height: 35vh;
     width: 100%;
   }
 
