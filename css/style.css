@@ -755,6 +755,11 @@ hr {
     margin-bottom: -30px;
   }
 
+  .news-container {
+    display: grid;
+    grid-template-columns: repeat(4, 2fr);
+  }
+
   .img-container {
     width: 40%;
   }
