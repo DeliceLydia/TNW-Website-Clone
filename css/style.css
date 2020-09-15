@@ -746,7 +746,7 @@ hr {
 
   .img-left {
     width: 98.8%;
-    height: 81.6vh;
+    height: 78vh;
     margin-left: 10px;
   }
 
@@ -773,6 +773,14 @@ hr {
     margin-left: 50px;
   }
 
+  .fund {
+    margin-left: 200px;
+  }
+
+  .funds-container {
+    width: 25vw;
+  }
+
   .orange-text-heading {
     display: flex;
     flex-direction: row;
@@ -780,16 +788,18 @@ hr {
   }
 
   .orange-text-heading h2 {
-    margin-left: -140px;
+    margin-left: -10px;
+    font-size: 30px;
   }
 
   .orange-text-heading .right-list {
     display: flex;
-    margin-right: -120px;
+    margin-right: 50px;
   }
 
   .orange-text-heading .right-list a {
-    margin-left: 15px;
+    margin-left: 12px;
+    font-size: 20px;
     border-right: 2px solid pink;
   }
 
@@ -797,14 +807,13 @@ hr {
     margin-right: 120px;
   }
 
-  .third-section {
-    width: 500px;
-    margin-left: 60px;
+  .flex {
+    margin-left: 90px;
   }
 
-  .flex {
-    margin-left: 300px;
-    margin-right: 100px;
+  .third-section {
+    width: 480px;
+    margin-left: 10px;
   }
 
   .flex-container .section-h2 {
