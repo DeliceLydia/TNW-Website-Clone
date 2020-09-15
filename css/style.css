@@ -274,6 +274,7 @@ footer {
 
 .latest-down {
   color: rgb(248, 58, 25);
+  width: 55%;
 }
 
 .latest-down h4 {
@@ -353,7 +354,7 @@ footer {
   visibility: hidden;
 }
 
-  /* main */
+/* main */
 
 .main-container {
   display: flex;
@@ -427,10 +428,6 @@ footer {
   height: 100px;
 }
 
-.latest-down {
-  width: 55%;
-}
-
 .latest-img {
   width: 50%;
 }
@@ -469,7 +466,7 @@ footer {
   .cover-logo {
     visibility: hidden;
   }
- 
+
   .nav-section li a {
     padding-left: 10px;
   }
@@ -591,7 +588,6 @@ footer {
 @media all and (min-width: 1024px) {
   .nav {
     padding-left: 0;
-  
   }
 
   .nav-logo {
@@ -606,14 +602,18 @@ footer {
     padding-bottom: -80px;
   }
 
-  .list-container ul li a,
-  .nav-section li a {
-    font-size: 18px;
-    margin-left: 12px;
-  }
-
   .float-right li a {
     margin-right: 100px;
+  }
+
+  .latest-list li a {
+    font-size: 1.4em;
+  }
+
+  .nav-section li a,
+  .list-container ul li a {
+    font-size: 18px;
+    margin-left: 12px;
   }
 
   .nav-section {
@@ -652,7 +652,7 @@ footer {
   }
 
   .first-img .inside {
-    margin-top: -100px
+    margin-top: -100px;
   }
 
   .first-img .inside-heading {
@@ -714,10 +714,6 @@ footer {
 
   .latest-down {
     font-size: 1.3em;
-  }
-
-  .latest-list li a {
-    font-size: 1.4em;
   }
 
   .footer-bottom {
